@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+
+{% block inside_jumbotron %} 
+<h1 class="display-4 font-italic">Здесь отображена Статья_2</h1>
+{% endblock %}
+
+{% block blog_post %}
+    <div class="blog-post">
+        <h2 class="blog-post-title">Название поста_2</h2>
+        <p class="blog-post-meta">1 апреля 2020 by <a href="#">Автор_я"</a></p>
+
+        <p>Изложение тезисов самой статьи,поста.</p>
+        
+        <p>Ссылки на  <a href="#">источники</a></p>
+        <blockquote>
+            <h2>Содержание статьи_2.</h2>
+            <p>Вывод из статьи_2.</p>
+         <hr>
+      </div><!-- /.blog-post -->
+{% endblock%}
+
+{% block nav %}
+    <nav class="blog-pagination">
+        <a class="btn btn-outline-primary" href="#">Older</a>
+        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+    </nav>
+ {% endblock%}
