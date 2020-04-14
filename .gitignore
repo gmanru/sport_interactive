@@ -1,5 +1,5 @@
-models/__pycache__
 .vscode
 env
 myapp.db
-views/__pycache__
+models/__pycache__/
+views/__pycache__/
